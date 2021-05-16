@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Rock Paper Scissors Lizard Spock Game</title>
+    <script src="https://kit.fontawesome.com/f39827019b.js" crossorigin="anonymous"></script>
+    <link href="styles.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width" />   
+</head>
+<body>
+    <header>
+        <h1>Rock Paper Scissors Lizard Spock</h1>
+    </header>
+
+    <div class="score-board">
+        <div id="user-label" class="badge">user</div>
+        <div id="computer-label" class="badge">computer</div>
+        <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+
+    <div class="result">
+        <p><i>...and as it always has, Rock crushes Scissors. You win!</i></p>
+    </div>
+
+    <div class="choices">
+        <div id="rock" class="choice">
+            <i class="far fa-hand-rock fa-10x"></i>
+        </div>
+        <div id="paper" class="choice">
+            <i class="far fa-hand-paper fa-10x"></i>
+        </div>
+        <div id="scissors" class="choice">
+            <i class="far fa-hand-scissors fa-10x"></i>
+        </div>
+        <div id="lizard" class="choice">
+            <i class="far fa-hand-lizard fa-10x"></i>
+        </div>
+        <div id="spock" class="choice">
+            <i class="far fa-hand-spock fa-10x"></i>
+        </div>
+    </div>
+
+    <p id="action-message">Make your move!</p>
+
+
+    <div class="rules">
+        <pre>
+            Scissors cuts Paper, Paper covers Rock, Rock crushes Lizard,
+            Lizard poisons Spock, Spock smashes Scissors, Scissors decapitates Lizard,
+            Lizard eats Paper, Paper disproves Spock, Spock vaporizes Rock, 
+            and as it always has, Rock crushes Scissors.
+        </pre>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
